@@ -1,0 +1,141 @@
+...read this document with wordwrap turned on...
+
+STATS:
+  My stats after applying to about 45 jobs:
+      WITH COVER LETTER:    1/3  got an interview
+      WITHOUT COVER LETTER: 1/10 got an interview
+
+BACKGROUND:
+    I constructed my cover letters in a particular way based on research and experience with prior applications - the format I used is not random.
+    Without a cover letter, it seems like you don't really care about the job and aren't invested in it. With a _properly constructed_ cover letter,
+    you can seem highly skilled, interested in the position (ie you'd accept if they offer), and are more of a real person to them (less likely to reject).
+
+TIPS:
+    - write every cover letter from scratch. Exception: ok to copy in pieces from other letters you've written. Try not to copy/paste full form cover letters - this is worse than just sending a resume.
+    - also tailor your resume per the job, by putting more relevant things at the top, omitting things they don't care about, and emphasizing things things they do.
+    - if you can, use html links in your resume and cover letter to link to things you've done so that they can easily look at your work. Even uploading some of your stuff to some free hosting service and linking to it woudl be great!
+
+------
+FORMAT:
+------
+
+[Dear Recruiter / To whom it may concern],
+
+I would like to apply for [position] at [company] which I heard about [how I heard about it].
+
+[summary of my background that makes my backround sound relevant to the position]. As I understand, this internship [description of internship in my own words that makes my skills seem relevant]. Given my [super brief re-summary of experience] I am an ideal candidate for this job.
+
+[I have heard your company is great to work for / the job description sounds perfect for me for x y z reasons]. [also maybe extra notes, for example if the position is in the US note that you're a CA or US citizen so it will be ok]
+
+Sincerely,
+
+Cameron McKinnon.
+
+email:    xxxx@xxxx.com
+phone:    123-123-1234
+website:  www.derp.com
+linkedin: http://www.linkedin.com/derp?q-132=...
+...etc
+
+---------------------------
+EXAMPLE 1 - IBM APPLICATION.
+---------------------------
+
+Dear Recruiter,
+
+I would like to apply for a Summer 2011 internship with IBM, which I read about on uWaterloo’s Jobmine.
+
+I am an intelligent, hard-working programmer with strong software development skills. I worked as a freelance programmer for two years before beginning my studies at the University of Waterloo. Freelancing has provided me with experience in modern technologies, working with clients and associates remotely and in person, managing time effectively, and working with teams (I would often be working with other developers and graphic artists to complete larger projects).
+
+In the job description for this opportunity it was written that qualified candidates should have Java/C/C++ experience. I happen to be very strong with all three of those languages. To start, you may be interested in viewing some Java and C code I’ve written at www.cammckinnon.com/resume (see the Code Samples section to the right of the page). I have fairly extensive experience in all three languages from my freelance career, and by the end of this term I will have completed a second-year course on C++ and OOP. Additionally I received a grade of 94% in CS 145 which is an advanced first-year course that covers C. Finally, last year I placed in the top twenty for the senior bracket of the Canadian Computing Competition (CCC), which is a programming competition for schools across Canada. I used Java and C++ for the competition.
+
+The description also mentioned that Linux experience would be a plus. I am an avid a Ubuntu user, so I feel right at home in a linux-based environment. By the end of this academic term (so before the summer 2011 work term) I will have completed a second-year CS course (CS 246) that covers bash scripting – so I will have both personal and academic experience with Linux.
+
+It was also stated in the description that experience with web development and databases would be an asset. I have several years of professional web development experience. In particular I encourage you to take a look at BadgeGames.com. I developed BadgeGames entirely aside from the HTML/CSS. I used PHP/MySQL for the backend, and jQuery for the frontend.
+
+From what I have heard IBM is an ideal place to work as a software developer and I would enjoy the opportunity to do so as an intern.
+
+I have included my resume below.
+
+
+Sincerely,
+
+Cameron McKinnon.
+
+Phone: 226-444-4226 
+Email: cammckinnon@gmail.com 
+Website: www.cammckinnon.com
+
+----------------------
+EXAMPLE 2 -  Fog Creek.
+----------------------
+
+To whom it may concern, 
+
+I would like to apply for the Summer 2011 internship with Fog creek, which I read about after following a 
+link from StackOverflow to Joel on Software. 
+
+I am an intelligent, hard-working programmer with strong software development skills. I worked as a 
+freelance programmer for two years before beginning my studies at the University of Waterloo. 
+Freelancing has provided me with experience in modern technologies, working with clients remotely and 
+in person, managing time effectively and working with small teams (I would often be working with other
+developers and graphic artists to complete larger projects). As I understand, during the internship I would 
+be working in a small team with other interns to deliver a product by the end of the summer. I believe the 
+goal-oriented nature of the projects I delivered as a freelance programmer makes me a great fit for such an 
+internship. 
+
+From what I have heard Fog Creek is an ideal place to work as a software developer, and I would enjoy 
+the opportunity to do so as an intern. Please note that I live in Waterloo, Canada as I am currently 
+pursuing a Computer Science degree at the University of Waterloo. If you would like to interview me 
+remotely, I would be more than willing to do so via webcam or over the phone. Should I be selected for
+an internship, I can come to New York for the summer. 
+
+I have included my resume in the following pages of this document.
+
+Sincerely, 
+
+Cameron McKinnon. 
+
+Phone: 226-444-4226 
+Email: cammckinnon@gmail.com 
+Website: www.cammckinnon.com
+
+----------------------
+EXAMPLE 3 - RIOT GAMES
+----------------------
+
+To whom it may concern, 
+
+I would like to apply for a software engineer internship, as described at 
+http://www.riotgames.com/careers/software-engineer-intern. In particular I am interested in working as an 
+intern over the summer, from May to August 2011 inclusive.  
+
+I am an intelligent, hard-working programmer with strong software development skills. I worked as a 
+freelance programmer for two years before beginning my studies at the University of Waterloo. 
+Freelancing has provided me with experience in modern technologies, solving real-world programming 
+problems, managing time effectively and working with small teams (I would often be working with other 
+developers and graphic artists to complete larger projects). Furthermore, I have developed and released 
+five indie flash games over the course of my programming career. This demonstrates interest and 
+experience in the gaming industry, which as I understand is ideal for an intern at Riot Games. 
+
+Based on what I have gathered from my research Riot Games is an ideal place to work and I would enjoy 
+the opportunity to do so as an intern. Please note that I live in Waterloo, Canada as I am currently 
+pursuing a Computer Science degree at the University of Waterloo. If you would like to interview me 
+remotely, I would be more than willing to do so via webcam or over the phone. Should I be selected for
+an internship, I can come to Los Angeles for the summer. 
+
+I have included my resume in the following pages of this document. 
+
+Sincerely,
+ 
+Cameron McKinnon.
+ 
+Phone: 226-444-4226 
+Email: cammckinnon@gmail.com 
+Website: www.cammckinnon.com
+
+---
+p.s. i have more cover letters on home pc - these are the only ones i have here.
+---
+
+CHEERS AND HAPPY JOB HUNTING! :)
