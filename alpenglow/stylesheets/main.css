@@ -47,6 +47,7 @@ hr {
 body,
 html {
   min-height: 100%;
+  min-width: 960px;
 }
 header {
   overflow: hidden;
