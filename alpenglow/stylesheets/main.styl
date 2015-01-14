@@ -76,10 +76,11 @@ header
   logo-height = logo-width * logo-source-height / logo-source-width
 
   overflow: hidden
-  padding: 150px 0 100px
+  padding: 125px 0
   background-image: url('../images/map-top-1x.jpeg')
   background-position: center top
-  background-size: cover
+  background-size: 100%
+  text-align: center
 
   @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)
     background-image: url('../images/map-top-2x.jpeg')
@@ -90,14 +91,37 @@ header
     background-size: logo-width logo-height
     width: logo-width
     height: logo-height
-    margin: 0 auto 50px
+    margin: 0 auto 25px
 
     @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)
       background-image: url('../images/logo-2x.png')
 
   .subtitle
-    text-align: center
     color: color-red
+
+    p
+      margin: 0
+
+    a
+      text-indent: -999999px
+      background-size: cover
+      height: 20px
+      width: 20px
+      display: inline-block
+      transition: all .2s ease-in-out
+      position: relative
+      top: -4px
+
+      &:hover
+        transform scale(1.2)
+
+
+    #social-facebook
+      background-image: url('../images/social/facebook.png')
+      margin-right: -4px
+
+    #social-instagram
+      background-image: url('../images/social/instagram.png')
 
 ///////////////////////////////////////////
 //               About                   //
@@ -107,7 +131,7 @@ header
   about-spacing = 75px
 
   width: 100%
-  background-image: url("../images/promo/0058.jpg")
+  background-image: url("../images/0058.jpg")
   background-size: cover
   background-position: 0 60%
   color: lighten(color-red, 80%)
@@ -129,7 +153,7 @@ header
 ///////////////////////////////////////////
 
 #events
-  background-image: url('../images/promo/0084.jpg')
+  background-image: url('../images/0084.jpg')
   background-size: cover !important
   background-repeat: no-repeat
   background-position: center center
@@ -185,29 +209,24 @@ header
 #sponsors
   overflow: hidden
   width: 100%
-  background-image: url('../images/map-bottom-1x.jpeg')
-  background-size: cover
+  background-image: url('../images/patterns/squairy_light.png')
   background-position: center bottom
 
   #sponsors-inner
     min-width: width - 150px
     max-width: width * 1.25 - 150px
     margin 0 auto
-    padding: 75px
-    padding-bottom: 150px
+    padding: 125px 75px 75px
     overflow: hidden
-
-  @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)
-    background-image: url('../images/map-bottom-2x.jpeg')
 
   img
     display: inline-block
     margin-right: 50px
     background-position: center center
     cursor: pointer
-    transition: all .2s ease-in-out
     margin-bottom: 25px
     vertical-align: middle
+    transition: all .2s ease-in-out
 
     &:hover
       transform scale(1.05)
