@@ -51,10 +51,11 @@ html {
 }
 header {
   overflow: hidden;
-  padding: 150px 0 100px;
+  padding: 125px 0;
   background-image: url("../images/map-top-1x.jpeg");
   background-position: center top;
-  background-size: cover;
+  background-size: 100%;
+  text-align: center;
 }
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   header {
@@ -67,7 +68,7 @@ header h1 {
   background-size: 660px 248.7890625px;
   width: 660px;
   height: 248.7890625px;
-  margin: 0 auto 50px;
+  margin: 0 auto 25px;
 }
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   header h1 {
@@ -75,12 +76,34 @@ header h1 {
   }
 }
 header .subtitle {
-  text-align: center;
   color: #c14638;
+}
+header .subtitle p {
+  margin: 0;
+}
+header .subtitle a {
+  text-indent: -999999px;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  top: -4px;
+}
+header .subtitle a:hover {
+  transform: scale(1.2);
+}
+header .subtitle #social-facebook {
+  background-image: url("../images/social/facebook.png");
+  margin-right: -4px;
+}
+header .subtitle #social-instagram {
+  background-image: url("../images/social/instagram.png");
 }
 #about {
   width: 100%;
-  background-image: url("../images/promo/0058.jpg");
+  background-image: url("../images/0058.jpg");
   background-size: cover;
   background-position: 0 60%;
   color: #f3d9d7;
@@ -98,7 +121,7 @@ header .subtitle {
   max-width: 480px;
 }
 #events {
-  background-image: url("../images/promo/0084.jpg");
+  background-image: url("../images/0084.jpg");
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center center;
@@ -151,31 +174,24 @@ header .subtitle {
 #sponsors {
   overflow: hidden;
   width: 100%;
-  background-image: url("../images/map-bottom-1x.jpeg");
-  background-size: cover;
+  background-image: url("../images/patterns/squairy_light.png");
   background-position: center bottom;
 }
 #sponsors #sponsors-inner {
   min-width: 810px;
   max-width: 1050px;
   margin: 0 auto;
-  padding: 75px;
-  padding-bottom: 150px;
+  padding: 125px 75px 75px;
   overflow: hidden;
-}
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-  #sponsors {
-    background-image: url("../images/map-bottom-2x.jpeg");
-  }
 }
 #sponsors img {
   display: inline-block;
   margin-right: 50px;
   background-position: center center;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   margin-bottom: 25px;
   vertical-align: middle;
+  transition: all 0.2s ease-in-out;
 }
 #sponsors img:hover {
   transform: scale(1.05);
