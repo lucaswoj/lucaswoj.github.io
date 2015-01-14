@@ -77,9 +77,7 @@ header h1 {
 }
 header .subtitle {
   color: #c14638;
-}
-header .subtitle p {
-  margin: 0;
+  font-size: 14px;
 }
 header .subtitle a {
   text-indent: -999999px;
