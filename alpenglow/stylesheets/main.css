@@ -128,42 +128,43 @@ header .subtitle #social-instagram {
   min-width: 810px;
   max-width: 1050px;
   margin: 0 auto;
-  padding: 75px;
+  padding: 50px 75px 75px;
   padding-bottom: 150px;
   overflow: hidden;
 }
-#events h3 {
-  padding-left: 10px;
+#events #events-inner > p {
+  text-align: center;
+  color: #c14638;
+  font-size: 14px;
+  margin-bottom: 25px;
+  font-weight: bold;
 }
-#events p {
-  margin-bottom: 5px;
-}
-#events .day {
-  float: left;
+#events #events-inner .day {
   width: 33.3333%;
+  float: left;
 }
-#events .day:nth-child(3n + 2) {
+#events #events-inner .day#events-day-4,
+#events #events-inner .day#events-day-7 {
   clear: both;
 }
-#events .day .day-inner {
+#events #events-inner .day h3 {
+  padding-left: 10px;
+}
+#events #events-inner .day p {
+  margin-bottom: 5px;
+}
+#events #events-inner .day .day-inner {
   margin: 15px;
   padding: 20px 20px 20px;
   background-color: rgba(253,248,248,0.9);
 }
-#events .event {
+#events #events-inner .day .day-inner .event {
   padding: 5px 10px 0;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   position: relative;
 }
-#events .event:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-}
-#events .event:hover h4 {
-  color: #ae3f32;
-}
-#events .date {
+#events #events-inner .day .day-inner .event .date {
   font-size: 10px;
   color: #999;
   margin-bottom: 2px;
@@ -172,8 +173,13 @@ header .subtitle #social-instagram {
 #sponsors {
   overflow: hidden;
   width: 100%;
-  background-image: url("../images/patterns/squairy_light.png");
+  background-image: url("../images/patterns/fresh_snow.png");
   background-position: center bottom;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+  #sponsors {
+    background-image: url("../images/patterns/fresh_snow_@2X.png");
+  }
 }
 #sponsors #sponsors-inner {
   min-width: 810px;

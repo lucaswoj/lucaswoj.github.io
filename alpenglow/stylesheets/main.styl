@@ -160,45 +160,51 @@ header
     min-width: width - 150px
     max-width: width * 1.25 - 150px
     margin 0 auto
-    padding: 75px
+    padding: 50px  75px 75px
     padding-bottom: 150px
     overflow: hidden
 
-  h3
-    padding-left: 10px
+    & > p
+      text-align: center
+      color: color-red
+      font-size: 14px
+      margin-bottom: 25px
+      font-weight: bold
 
-  p
-    margin-bottom: 5px
+    .day
+      width: 33.3333%
+      float: left
+      &#events-day-4, &#events-day-7
+        clear: both
 
-  .day
-    float: left
-    width: 33.3333%
+      h3
+        padding-left: 10px
 
-    &:nth-child(3n + 2)
-      clear: both
+      p
+        margin-bottom: 5px
 
-    .day-inner
-      margin: 15px
-      padding: 20px 20px 20px
-      background-color: transparentify(lighten(color-red, 97%), 90%)
+      .day-inner
+        margin: 15px
+        padding: 20px 20px 20px
+        background-color: transparentify(lighten(color-red, 97%), 90%)
 
-  .event
-    padding: 5px 10px 0
-    cursor: pointer
-    transition: all .2s ease-in-out
-    position: relative
+        .event
+          padding: 5px 10px 0
+          cursor: pointer
+          transition: all .2s ease-in-out
+          position: relative
 
-    &:hover
-      cursor: pointer
-      transform scale(1.05)
-      h4
-        color: darken(color-red, 10%)
+          // &:hover
+          //   cursor: pointer
+          //   transform scale(1.05)
+          //   h4
+          //     color: darken(color-red, 10%)
 
-  .date
-    font-size: 10px
-    color: #999
-    margin-bottom: 2px
-    display: block
+          .date
+            font-size: 10px
+            color: #999
+            margin-bottom: 2px
+            display: block
 
 ///////////////////////////////////////////
 //              Sponsors                 //
@@ -207,8 +213,11 @@ header
 #sponsors
   overflow: hidden
   width: 100%
-  background-image: url('../images/patterns/squairy_light.png')
+  background-image: url('../images/patterns/fresh_snow.png')
   background-position: center bottom
+
+  @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)
+    background-image: url('../images/patterns/fresh_snow_@2X.png')
 
   #sponsors-inner
     min-width: width - 150px
