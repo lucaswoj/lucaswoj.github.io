@@ -1,3 +1,11 @@
+a,
+:visited,
+:active {
+  color: #18abeb;
+}
+a:hover {
+  color: #68c8f2;
+}
 body {
   font-family: oxygen;
   line-height: 1.2em;
@@ -41,7 +49,12 @@ hr {
   height: 250px;
   width: 100%;
   background-image: url("../images/hr.jpg");
-  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
   background-position: center center;
 }
 body,
@@ -54,7 +67,12 @@ header {
   padding: 125px 0;
   background-image: url("../images/map-top-1x.jpg");
   background-position: center top;
-  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
   text-align: center;
 }
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
@@ -81,15 +99,23 @@ header .subtitle {
 }
 header .subtitle a {
   text-indent: -999999px;
-  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
   height: 20px;
   width: 20px;
   display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   position: relative;
   top: -4px;
 }
 header .subtitle a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 header .subtitle #social-facebook {
@@ -102,7 +128,12 @@ header .subtitle #social-instagram {
 #about {
   width: 100%;
   background-image: url("../images/0058.jpg");
-  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
   background-position: 0 60%;
   color: #f3d9d7;
   text-align: justify;
@@ -120,6 +151,11 @@ header .subtitle #social-instagram {
 }
 #events {
   background-image: url("../images/0084.jpg");
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center center;
@@ -128,7 +164,7 @@ header .subtitle #social-instagram {
   min-width: 810px;
   max-width: 1050px;
   margin: 0 auto;
-  padding: 50px 75px 75px;
+  padding: 75px;
   padding-bottom: 150px;
   overflow: hidden;
 }
@@ -136,7 +172,7 @@ header .subtitle #social-instagram {
   text-align: center;
   color: #c14638;
   font-size: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 #events #events-inner .day {
   width: 33.3333%;
@@ -160,6 +196,7 @@ header .subtitle #social-instagram {
 #events #events-inner .day .day-inner .event {
   padding: 5px 10px 0;
   cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   position: relative;
 }
@@ -195,9 +232,12 @@ header .subtitle #social-instagram {
   cursor: pointer;
   margin-bottom: 25px;
   vertical-align: middle;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 #sponsors img:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
 #sponsors #sponsors-one,
@@ -223,5 +263,8 @@ header .subtitle #social-instagram {
 #sponsors #sponsors-partner img {
   max-width: 125px;
   max-height: 104.16666666666667px;
+}
+#sponsors footer {
+  text-align: center;
 }
 
