@@ -9,13 +9,6 @@
 
       html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;} body, html {min-height: 100%;}
 
-      /**************************************/
-      /*                                    */
-      /*          Element Styles            */
-      /*                                    */
-      /**************************************/
-
-
       a, a:visited {
         color: blue;
       }
@@ -34,10 +27,6 @@
         font-weight: bold;
       }
 
-      /*********************/
-      /*      Headings     */
-      /*********************/
-
       h1 {
         font-size: 63px;
         text-transform: uppercase;
@@ -45,6 +34,7 @@
       }
 
       /* The "big" class is used for the drop caps effect */
+      /* CSS has native support for drop caps now but we can't rely on support everywhere */
       h1 .big {
         font-size: 130%;
       }
@@ -85,10 +75,6 @@
         margin-top: 0px;
       }
 
-      /*********************/
-      /*       Lists       */
-      /*********************/
-
       ul {
         margin-left: 15px;
         margin-bottom: 20px;
@@ -99,12 +85,6 @@
         margin-top: 10px;
         line-height: 1.3em;
       }
-
-      /**************************************/
-      /*                                    */
-      /*           Page Sections            */
-      /*                                    */
-      /**************************************/
 
       #wrapper {
         width: 800px;
@@ -117,16 +97,6 @@
         margin-bottom: 10px;
         overflow: hidden;
       }
-
-      .third {
-        width: 33%;
-      }
-
-      .third.left { text-align: left; }
-
-      .third.middle { text-align: center; margin: 0 auto; }
-
-      .third.right { text-align: right; }
 
       .section {
         margin-bottom: 25px;
@@ -155,9 +125,9 @@
 
       <div class="heading">
 
-        <div class="third middle"><p>
-          <a href="mailto:hello@lucaswoj.com">hello@lucaswoj.com</a>
-        </p></div>
+        <div class="section">
+          You can reach me at <a href="mailto:hello@lucaswoj.com">hello@lucaswoj.com</a> or (781) 424-8183
+        </div>
 
       </div>
 
@@ -166,7 +136,7 @@
         <ul>
             <li>Developing mapping software</li>
             <li>Organizing people &amp; projects</li>
-            <li>Improving user experience</li>
+            <li>Designing elegant user experiences</li>
         </ul>
       </div>
 
@@ -176,9 +146,9 @@
         <div class="subsection">
           <h3><span class="big">M</span>apbox</h3>
           &nbsp;&mdash;&nbsp;Software Engineer<br>
-          <em>July 2015 - March 2017</em>
+          <em>July 2015 - present</em>
           <ul>
-            <li>Developed new features, improved performance, and fixed bugs in <a href="https://www.mapbox.com/mapbox-gl-js/api/">Mapbox GL</a> using JavaScript, C++, and OpenGL</li>
+            <li>Developed new features, improved performance, and fixed bugs in Mapbox GL using JavaScript, C++, and OpenGL</li>
             <li>Served as product manager for Mapbox GL</li>
             <li>Ran A/B tests and user surveys to improve user experience and drive growth</li>
             <li>Fostered the Mapbox open source community</li>
@@ -244,12 +214,12 @@
         <!-- Malvern Pool -->
 
       </div>
-      
+
       <div class="section">
         <h2><span class="big">O</span>utdoors <span class="big">E</span>xperience</h2>
 
         <ul>
-          <li>Hiked the <a href="http://continentaldividetrail.org/">Continental Divide Trail</a> in 2017 (3000+ miles through the Rocky Mountains)</li>
+          <li>Hiked the Continental Divide Trail in 2017 (3000+ miles through the Rocky Mountains)</li>
           <li>Climb mountains on trail, technical rock, and snow</li>
           <li>Regularly compete in ultramarathon races</li>
         </ul>
@@ -271,7 +241,7 @@
           </ul>
         </div>
       </div>
-      
+
     </div>
   </body>
 </html>
