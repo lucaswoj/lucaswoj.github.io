@@ -9,22 +9,15 @@
 
       html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;} body, html {min-height: 100%;}
 
-      a, a:visited {
-        color: blue;
+      body {
+        width: 800px;
+        margin: 40px auto;
+        font-family: georgia;
       }
 
       em {
         font-style: italic;
         font-size: .9em;
-      }
-
-      em.small {
-        font-size: .9em;
-        margin-left: 1px;
-      }
-
-      strong {
-        font-weight: bold;
       }
 
       h1 {
@@ -33,9 +26,7 @@
         margin-bottom: 10px;
       }
 
-      /* The "big" class is used for the drop caps effect */
-      /* CSS has native support for drop caps now but we can't rely on support everywhere */
-      h1 .big {
+      h1::first-letter {
         font-size: 130%;
       }
 
@@ -45,7 +36,7 @@
         margin-bottom: 7px;
       }
 
-      h2 .big {
+      h2::first-letter {
         font-size: 130%;
       }
 
@@ -56,7 +47,7 @@
         display: inline;
       }
 
-      h3 .big {
+      h3::first-letter {
         font-size: 125%;
       }
 
@@ -67,7 +58,7 @@
         margin-bottom: 3px;
       }
 
-      h4 .big {
+      h4::first-letter {
         font-size: 130%;
       }
 
@@ -84,18 +75,6 @@
       li {
         margin-top: 10px;
         line-height: 1.3em;
-      }
-
-      #wrapper {
-        width: 800px;
-        margin: 0 auto 0;
-        font-family: georgia;
-      }
-
-      .heading {
-        margin-top: 20px;
-        margin-bottom: 10px;
-        overflow: hidden;
       }
 
       .section {
@@ -121,75 +100,80 @@
   </head>
   <body>
     <div id="wrapper">
-      <h1><span class="big">L</span>ucas <span class="big">W</span>ojciechowski</h1>
+      <h1>Lucas Wojciechowski</h1>
 
-      <div class="heading">
-
-        <div class="section">
-          You can reach me at <a href="mailto:hello@lucaswoj.com">hello@lucaswoj.com</a> or (781) 424-8183
-        </div>
-
+      <div class="section">
+        You can reach me at <a href="mailto:hello@lucaswoj.com">hello@lucaswoj.com</a> or (781) 424-8183
       </div>
 
       <div class="section">
-        <h2><span class="big">S</span>kills</h2>
+        <h2>Skills</h2>
         <ul>
-            <li>Developing mapping software</li>
+            <li>Developing robust software using JavaScript and React</li>
+            <li>Designing wonderful user experiences</li>
             <li>Organizing people &amp; projects</li>
-            <li>Designing elegant user experiences</li>
         </ul>
       </div>
 
       <div class="section">
-        <h2><span class="big">W</span>ork <span class="big">E</span>xperience</h2>
+        <h2>Work Experience</h2>
 
         <div class="subsection">
-          <h3><span class="big">M</span>apbox</h3>
-          &nbsp;&mdash;&nbsp;Software Engineer<br>
-          <em>July 2015 - present</em>
+          <h3>Gaia GPS</h3>
+          &nbsp;&mdash;&nbsp;Senior Software Engineer<br>
+          <em>April 2018 - present</em>
           <ul>
-            <li>Developed new features, improved performance, and fixed bugs in Mapbox GL using JavaScript, C++, and OpenGL</li>
-            <li>Ran A/B tests and user surveys to improve user experience and drive growth</li>
-            <li>Fostered the Mapbox open source community</li>
-            <li>Helped do product management for Mapbox GL</li>
-            <li>Wrote the Mapbox company values</li>
+            <li>Developed new features, improved performance, and fixed bugs on gaiagps.com using JavaScript, React, Python, and Django</li>
+            <li>Mentored coworkers in software engineering principles and technical skills</li>
           </ul>
         </div>
 
         <div class="subsection">
-          <h3><span class="big">C</span>ounsyl</h3>
+          <h3>Mapbox</h3>
+          &nbsp;&mdash;&nbsp;Software Engineer<br>
+          <em>July 2015 - April 2018</em>
+          <ul>
+            <li>Developed new features, improved performance, and fixed bugs for Mapbox GL using JavaScript, C++, and WebGL</li>
+            <li>Organized Mapbox GL JS team roadmap</li>
+            <li>Ran A/B tests and user surveys to improve user experience and drive growth</li>
+            <li>Managed questions and pull requests from the open source community on GitHub</li>
+          </ul>
+        </div>
+
+        <div class="subsection">
+          <h3>Counsyl</h3>
           &nbsp;&mdash;&nbsp;Engineering Intern<br>
           <em>Janurary 2014 - April 2014</em>
           <ul>
-            <li>Created software to analyze genetic metadata using Python</li>
+            <li>Created software to analyze genetic metadata using Python, NumPy, and SciPy</li>
             <li>Reverse-engineered lab hardware APIs using .NET and Python</li>
-            <li>Developed new features and fixed bugs on Counsyl's website using JavaScript, Python, and Django</li>
+            <li>Developed new features and fixed bugs on website using JavaScript, Python, and Django</li>
           </ul>
         </div>
 
         <div class="subsection">
-          <h3><span class="big">F</span>acebook</h3>
+          <h3>Facebook</h3>
           &nbsp;&mdash;&nbsp;Front End Engineering Intern<br>
           <em>May 2013 - August 2013</em>
           <ul>
-            <li>Refactored Facebook Messenger for web to use React</li>
-            <li>Built a JavaScript date format localization library and deployed it across the company</li>
+            <li>Refactored Facebook Messenger on web to use React, worked closely with core React team on library design</li>
+            <li>Built a JavaScript date format localization library and deployed it across products</li>
             <li>Developed new features and fixed bugs in Facebook Messenger for web using JavaScript and PHP</li>
           </ul>
         </div>
 
         <div class="subsection">
-          <h3><span class="big">T</span>witter</h3>
+          <h3>Twitter</h3>
           &nbsp;&mdash;&nbsp;Developer Productivity Engineering Intern<br>
           <em>September 2012 - December 2012</em>
           <ul>
-            <li>Built a staging system for twitter.com using Ruby</li>
+            <li>Built a staging deployment system for twitter.com using Ruby</li>
             <li>Created a custom front end for Jenkins CI using node.js and Ruby</li>
           </ul>
         </div>
 
         <!-- <div class="subsection">
-          <h3><span class="big">I</span>nkling</h3>
+          <h3>Inkling</h3>
           &nbsp;&mdash;&nbsp;Front End Engineering Intern<br>
           <em>January 2012 - April 2012</em>
           <ul>
@@ -198,7 +182,7 @@
         </div> -->
 
         <!-- <div class="subsection">
-          <h3><span class="big">G</span>enuine <span class="big">I</span>nteractive</h3>
+          <h3>Genuine Interactive</h3>
           &nbsp;&mdash;&nbsp;Front End Engineering Intern<br>
           <em>May 2011 - August 2011</em>
           <ul>
@@ -216,23 +200,13 @@
       </div>
 
       <div class="section">
-        <h2><span class="big">O</span>utdoors <span class="big">E</span>xperience</h2>
-
-        <ul>
-          <li>Hiked the Continental Divide Trail in 2017 (3000+ miles through the Rocky Mountains)</li>
-          <li>Climb mountains on trail, technical rock, and snow</li>
-          <li>Regularly compete in ultramarathon races</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2><span class="big">E</span>ducation</h2>
+        <h2>Education</h2>
         <div class="subsection">
-          <h3><span class="big">U</span>niversity of <span class="big">W</span>aterloo</h3>
+          <h3>University of Waterloo</h3>
           &nbsp;&mdash;&nbsp;Bachelor's of Software Engineering<br>
           <em>September 2010 - June 2015</em>
           <ul>
-            <li>Took electives in artificial intelligence, computer security, psychology, microbiology, and modern physics</li>
+            <li>Took electives in artificial intelligence, computer security, psychology, microbiology, and quantum physics</li>
             <li>Served as a student advisor on the University of Waterloo Software Engineering Board</li>
             <li>Served as an engineering society representative</li>
             <li>Served as an academic class representative</li>
@@ -242,6 +216,15 @@
         </div>
       </div>
 
+      <div class="section">
+        <h2>Interests</h2>
+
+        <ul>
+          <li>Hiked the Continental Divide Trail in 2017 (3000+ miles through the Rocky Mountains)</li>
+          <li>Regularly compete in ultramarathon races</li>
+          <li>Mountaineering, canyoneering, and trail running</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
